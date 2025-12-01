@@ -1,0 +1,49 @@
+{
+    "dataset_name": "replica_cad",
+    "scene_name": "apt_0",
+    "label": "example",
+
+    "light_settings_filename": "light_settings_replica_cad_0.json",
+
+    "width": 640,
+    "height": 480,
+    "hfov": 90,
+    "zfar": 1000.0,
+    "clear_color": [0.0, 0.0, 0.0, 1.0],
+    "sensor_height": 1.5,
+
+    "depth_scale": 6553.5,
+    "nav_points_number": 5,
+
+    "move_actuation_amount": 0.06,
+    "turn_actuation_amount": 4.0,
+
+    "move_freq_multiplier": 2,
+    "turn_freq_multiplier": 2,
+
+    "default_agent": 0,
+    "agent_radius": 0.2,
+
+    "override_scene_light_defaults": true,
+    "scene_light_setup": "default",
+
+    "color_sensor": true,
+    "semantic_sensor": true,
+    "depth_sensor": true,
+    "ortho_rgba_sensor": false,
+    "ortho_depth_sensor": false,
+    "ortho_semantic_sensor": false,
+    "fisheye_rgba_sensor": false,
+    "fisheye_depth_sensor": false,
+    "fisheye_semantic_sensor": false,
+    "equirect_rgba_sensor": false,
+    "equirect_depth_sensor": false,
+    "equirect_semantic_sensor": false,
+
+    "seed": 5,
+
+    "enable_physics": true,
+    "default_agent_navmesh": false,
+    "navmesh_include_static_objects": false,
+    "enable_hbao": true
+}

@@ -1,0 +1,244 @@
+{
+    "lights": {
+      "0": {
+        "type": "point",
+        "position": [
+          1.1,
+          1.85,
+          2.1
+        ],
+        "intensity": 0.9803944494460753,
+        "color": [
+          1,
+          1,
+          0.95
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "1": {
+        "type": "point",
+        "position": [
+          2.2,
+          1.5,
+          7.1
+        ],
+        "intensity": 0.9803944494460753,
+        "color": [
+          1,
+          1,
+          0.95
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "2": {
+        "type": "point",
+        "position": [
+          -0.91,
+          2.3,
+          2.53
+        ],
+        "intensity": 1.1586479857089982,
+        "color": [
+          0.93,
+          0.98,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "3": {
+        "type": "point",
+        "position": [
+          6.928,
+          3.3,
+          6.849
+        ],
+        "intensity": 4.45633840657307,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "4": {
+        "type": "point",
+        "position": [
+          7.048,
+          3.3,
+          2.378
+        ],
+        "intensity": 7.321127382227186,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "5": {
+        "type": "point",
+        "position": [
+          1.65,
+          2.6,
+          -2.03
+        ],
+        "intensity": -1.336901521971921,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "6": {
+        "type": "point",
+        "position": [
+          6.06,
+          2.6,
+          -2.67
+        ],
+        "intensity": -2.673803043943842,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "7": {
+        "type": "point",
+        "position": [
+          -1.4,
+          2.3,
+          -0.175
+        ],
+        "intensity": 1.1586479857089982,
+        "color": [
+          0.93,
+          0.98,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "8": {
+        "type": "point",
+        "position": [
+          -1.4,
+          2.3,
+          -2.775
+        ],
+        "intensity": 1.1586479857089982,
+        "color": [
+          0.93,
+          0.98,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "9": {
+        "type": "point",
+        "position": [
+          0.9,
+          0.9,
+          2.1
+        ],
+        "intensity": -0.4138028520389279,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "10": {
+        "type": "point",
+        "position": [
+          1.4,
+          0.9,
+          2.1
+        ],
+        "intensity": -0.4138028520389279,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "11": {
+        "type": "point",
+        "position": [
+          4.5,
+          0.7,
+          2.3
+        ],
+        "intensity": -0.5092958178940651,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "12": {
+        "type": "point",
+        "position": [
+          4.5,
+          0.7,
+          1.5
+        ],
+        "intensity": -0.5092958178940651,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "13": {
+        "type": "point",
+        "position": [
+          2.4,
+          0.8,
+          8.8
+        ],
+        "intensity": -1.7825353626292277,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "14": {
+        "type": "point",
+        "position": [
+          -2.756,
+          0.9,
+          -1.19
+        ],
+        "intensity": -0.6684507609859605,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      },
+      "15": {
+        "type": "point",
+        "position": [
+          4.4,
+          0.4,
+          4.9
+        ],
+        "intensity": -0.6366197723675814,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "life_intervals": [[null, null]]
+      }
+    }
+  }

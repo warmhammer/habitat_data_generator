@@ -1,0 +1,51 @@
+{
+    "dataset_name": "hm3d_val",
+    "scene_name": "00808-y9hTuugGdiq",
+    "label": "velocity",
+
+    "light_settings_filename": "light_settings_no_lights.json",
+
+    "width": 1200,
+    "height": 680,
+    "hfov": 90,
+    "zfar": 1000.0,
+    "clear_color": [0.0, 0.0, 0.0, 1.0],
+    "sensor_height": 1.0,
+
+    "depth_scale": 6553.5,
+    "nav_points_number": 2,
+    
+    "move_actuation_amount": 0.06,
+    "turn_actuation_amount": 4.0,
+
+    "move_freq_multiplier": 1,
+    "turn_freq_multiplier": 1,
+
+    "default_agent": 0,
+    "agent_radius": 0.2,
+
+    "override_scene_light_defaults": false,
+    "scene_light_setup": "default",
+
+    "remap_classes": true,
+
+    "color_sensor": true,
+    "semantic_sensor": true,
+    "depth_sensor": true,
+    "ortho_rgba_sensor": false,
+    "ortho_depth_sensor": false,
+    "ortho_semantic_sensor": false,
+    "fisheye_rgba_sensor": false,
+    "fisheye_depth_sensor": false,
+    "fisheye_semantic_sensor": false,
+    "equirect_rgba_sensor": false,
+    "equirect_depth_sensor": false,
+    "equirect_semantic_sensor": false,
+
+    "seed": 10,
+
+    "enable_physics": false,
+    "default_agent_navmesh": false,
+    "navmesh_include_static_objects": false,
+    "enable_hbao": true
+}

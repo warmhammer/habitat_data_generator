@@ -1,0 +1,28 @@
+services:
+  habitat:
+    build:
+      context: .
+    image: habitat_img
+    container_name: habitat_container
+    command: ["/bin/bash", "-ci", "pip install -e . && /bin/bash"]
+    runtime: nvidia
+    network_mode: host
+    stdin_open: true
+    tty: true
+    ipc: host
+    environment:
+      - XAUTORITY
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${ROOT_DIR}:/home/habitat_user/ws:rw
+      - ${DATA_DIR}:/data/:rw
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

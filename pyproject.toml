@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hadage"
+version = "1.0.0"
+description = "Hadage: [Ha]bitat [Da]ta [Ge]nerator"
+readme = "README.md"
+dependencies = [
+    "numpy", "quaternion", "matplotlib", "tqdm"
+]
+
+[tool.setuptools]
+packages = { find = {} }
