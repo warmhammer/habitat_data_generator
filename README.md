@@ -43,10 +43,10 @@ After installation:
 * improve `shader_type` field in `scene_dataset_config` to `material` or `phong` (lights reconfiguring don't work with other shader types)
 
 ### Augmented Replica CAD
-As part of [OSMa-Bench](https://be2rlab.github.io/OSMa-Bench/) we presented ReplicaCAD with augmented semantics annotations. You can easily download the dataset from [this repository](https://github.com/warmhammer/replica_cad_dataset).
+As part of [OSMa-Bench](https://be2rlab.github.io/OSMa-Bench/) we presented ReplicaCAD with augmented semantics annotations. You can easily download the dataset from [this HuggingFace page](https://huggingface.co/datasets/warmhammer/Augmented_ReplicaCAD_dataset).
 
 ```bash
-git clone https://github.com/warmhammer/replica_cad_dataset replica_cad
+git clone https://huggingface.co/datasets/warmhammer/Augmented_ReplicaCAD_dataset
 ```
 
 ### Original Replica CAD
